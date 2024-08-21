@@ -1,8 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper/modules';
-
 import 'swiper/css';
-import 'swiper/css/navigation';
 
 const Reviews = () => {
   return (
@@ -13,7 +10,7 @@ const Reviews = () => {
             <div className="review-top">
               <h2>Отзывы</h2>
             </div>
-            <Swiper navigation={true} modules={[Navigation]} slidesPerView={3} spaceBetween={30} className="reviews">
+            <Swiper slidesPerView={3} spaceBetween={30} className="reviews">
               <SwiperSlide>
                 <div className="review-box">
                   <div className="review-pfp">

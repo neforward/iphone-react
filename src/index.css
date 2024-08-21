@@ -812,16 +812,11 @@ body img {
 }
 .swiper {
   height: 220px;
+  cursor: grab;
 }
 .swiper-slide {
   width: 370px;
   height: 221px;
   border-radius: 15px;
   background: #1e1e1e;
-}
-.swiper-button-prev {
-
-}
-.swiper-button-next {
-  
 }
