@@ -6,7 +6,7 @@ const Search = () => {
                     <div className="search-content">
                         <h6>Поиск МОДЕЛИ</h6>
                         <select>
-                            <option  disabled defaultValue>Модель</option>
+                            <option disabled defaultValue selected>Модель</option>
                             <option>iPhone 12 Mini</option>
                             <option>iPhone 12</option>
                             <option>iPhone 12 Pro</option>
