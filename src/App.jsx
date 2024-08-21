@@ -6,6 +6,11 @@ import Search from "./components/Search"
 import Work from "./components/Work"
 import Service from "./components/Service"
 import Fixed from "./components/Fixed"
+import Take from "./components/Take"
+import Reviews from "./components/Reviews"
+import Help from "./components/Help"
+import Warning from "./components/Warning"
+import Footer from "./components/Footer"
 
 const App = () => {
   return (
@@ -18,6 +23,11 @@ const App = () => {
       <Model />
       <Service />
       <Fixed />
+      <Take />
+      <Reviews />
+      <Help />
+      <Warning />
+      <Footer />
     </>
   )
 }
