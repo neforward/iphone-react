@@ -137,8 +137,8 @@
 <use xlink:href="#image1_1_6334" transform="scale(0.0025)"/>
 </pattern>
 <linearGradient id="paint0_linear_1_6334" x1="476" y1="393.301" x2="1660.94" y2="411.804" gradientUnits="userSpaceOnUse">
-<stop offset="0.295487" stop-color="#292929"/>
-<stop offset="1" stop-color="#3C3C3C"/>
+<stop offset="0.295487" stopColor="#292929"/>
+<stop offset="1" stopColor="#3C3C3C"/>
 </linearGradient>
 <linearGradient id="paint1_linear_1_6334" x1="522" y1="0" x2="657.114" y2="683.579" gradientUnits="userSpaceOnUse">
 <stop/>

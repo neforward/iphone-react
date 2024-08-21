@@ -524,6 +524,40 @@ body img {
   gap: 10px;
 }
 .fixed {
+  padding-top: 74px;
+  padding-bottom: 74px;
+  margin-top: 100px;
   background: linear-gradient(94deg, #292929 49%, #444 98.16%);
-box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.45);
+}
+.fixed-second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fixed-second h5 {
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 216px;
+  margin: 0;
+}
+.fixed-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fixed-first p {
+  color: var(--Gray-4, #bdbdbd);
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 170%;
+  max-width: 855px;
+  padding-left: 12px;
+  border-left: #bdbdbd 3px solid;
 }
