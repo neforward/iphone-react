@@ -1,15 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
-
-    const closeMenu = () => {
-        setIsMenuOpen(false);
-    };
-
     return (
         <>
             <header className="header">
@@ -30,8 +25,6 @@ const Header = () => {
                             <button>Перезвонить мне</button>
                         </div>
                         <div className="header-burger">
-
-
                             <div
                                 className={`burger ${isMenuOpen ? 'active' : ''}`}
                                 onClick={toggleMenu}
