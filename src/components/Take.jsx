@@ -11,7 +11,7 @@ const Take = () => {
                         </div>
                         <div className="take-form">
                             <input type="text" placeholder="Имя" />
-                            <input type="text" />
+                            <input type="number" placeholder="+7 --- --- -- --"/>
                             <button>Перезвонить мне</button>
                         </div>
                     </div>
