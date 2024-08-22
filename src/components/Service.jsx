@@ -123,10 +123,8 @@ const Service = () => {
                 </div>
               </div>
               <div className="service-long">
-
               </div>
             </div>
-
           </div>
         </div>
       </div>

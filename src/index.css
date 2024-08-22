@@ -356,6 +356,7 @@ body img {
   font-family: "Open Sans";
   font-size: 24px;
   font-weight: 400;
+  padding-bottom: 80px;
 }
 .model-boxes {
   display: grid;
@@ -948,6 +949,9 @@ body img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  .model-txt p {
+    padding-bottom: 30px;
   }
 }
 @media screen and (max-width: 1220px) {
