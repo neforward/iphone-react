@@ -958,7 +958,7 @@ body img {
     flex-direction: column;
     gap: 0px;
   }
-  .footer-content .navbar {
+  .footer-content .footer-navbar {
     padding-top: 20px;
     padding-bottom: 20px;
     border-top: 1px solid #1c1c1d;

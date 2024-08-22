@@ -8,7 +8,7 @@ const Footer = () => {
                             <div className="footer-logo">
                                 <img src="https://i.ibb.co/Y0dZPZR/logo-d.png" alt="Logo" />
                             </div>
-                            <nav className="navbar">
+                            <nav className="footer-navbar">
                                 <a href="">Наши услуги</a>
                                 <a href="">Бренды</a>
                                 <a href="">Отзывы</a>
