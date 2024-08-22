@@ -1,10 +1,15 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
+import Form from './Form';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isFormOpen, setIsFormOpen] = useState(false);
+
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
+        document.body.classList.toggle('no-scroll', !isMenuOpen);
     };
+
     return (
         <>
             <header className="header">
@@ -22,7 +27,7 @@ const Header = () => {
                         </div>
                         <div className="header-second">
                             <h3>+8 (343) 311-21-11</h3>
-                            <button>Перезвонить мне</button>
+                            <button onClick={() => setIsFormOpen(true)}>Перезвонить мне</button>
                         </div>
                         <div className="header-burger">
                             <div
@@ -63,8 +68,9 @@ const Header = () => {
                     </div>
                 </div>
             </header>
+            {isFormOpen && <Form onClose={() => setIsFormOpen(false)} />}
         </>
     );
 };
 
-export default Header;
+export default Header
